@@ -1,0 +1,25 @@
+.hdicon img{
+    width: 50px;
+}
+
+.hdbtn button{
+    font-size: 22px;
+    background-color: rgb(51, 211, 158);
+    border-radius: 10px;
+}
+
+.hdtext {
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(28, 58, 58);
+}
+
+.pc-heading {
+    font-weight: bold;
+}
+
+.pc-component {
+    /* background-color: rgb(141, 130, 238); */
+    margin: 20px;
+    border-radius: 10px;
+}

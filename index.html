@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Shop </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid shadow-lg p-4">
+        <div class="container m-4">
+            <div class="row align-items-center">
+                <div class="col-auto ">
+                    <img src="https://ts2.mm.bing.net/th?id=OIP.toEbru_VfrjlfzSrnI5aewHaHa&pid=15.1"  alt="Logo" style="width: 50px;">
+                </div>
+                <div class="col">
+                    <h2 class="text-center">Suraj Computers</h2>
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-primary">About Us</button>
+                    <button class="btn btn-secondary">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="container-fluid">
+        <div class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="comp2.jpg" alt="CD600 Case" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6 text-center">
+                    <h1 class="fw-bold">Bring Home</h1>
+                    <h1 class="fw-bold text-primary">CD600</h1>
+                    <p class="lead text-muted">The Case that Refines Aesthetics</p>
+                    <button class="btn btn-lg btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#orderModal">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="orderModalLabel">Order CD600 Case</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="address" class="form-label">Shipping Address</label>
+                            <textarea class="form-control" id="address" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="quantity" class="form-label">Quantity</label>
+                            <input type="number" class="form-control" id="quantity" min="1" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Place Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+ 
+
+ <section class="container-fluid">
+    <div class="container d-flex">
+        
+            <div class="card m-4 shadow-lg" style="width: 18rem;" >
+                <img src="pc.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PC</h5>
+                  <p class="card-text"> Total Price: $<span id="total-price">0</span></p>
+                 
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+              </div>
+              <div class="card m-4 shadow-lg" style="width: 18rem;">
+                <img src="monitor.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Monitor</h5>
+                  <p class="card-text"> Price: $800</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+             </div>
+             <div class="card m-4 shadow-lg" style="width: 18rem;">
+                <img src="keyboard.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">keyboard</h5>
+                  <p class="card-text">  Price: $300</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+             </div>
+             <div class="card m-4 shadow-lg" style="width: 18rem;">
+                <img src="mouse.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">mouse</h5>
+                  <p class="card-text"> Price: $100</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+             </div>
+    </div>
+
+    <div class="container d-flex">
+        
+        <div class="card m-4 shadow-lg" style="width: 18rem;" >
+            <img src="grphics card.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">graphics Card</h5>
+              <p class="card-text">  Price: $900</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+          <div class="card m-4 shadow-lg" style="width: 18rem;">
+            <img src="ram.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ram</h5>
+              <p class="card-text"> Price: $300</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+         </div>
+         <div class="card m-4 shadow-lg" style="width: 18rem;">
+            <img src="ssd.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SSD</h5>
+              <p class="card-text">  Price: $400</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+         </div>
+         <div class="card m-4 shadow-lg" style="width: 18rem;">
+            <img src="powersupply.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Powersupply</h5>
+              <p class="card-text"> Price: $600</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+         </div>
+</div>
+ </section>
+
+
+<section class="container-fluid">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="lap1.webp" class="d-block w-100 crimg" alt="..." >
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="lap2.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="lap3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+
+
+ <footer>
+    
+ </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+ 
+
+
+  
+ 
