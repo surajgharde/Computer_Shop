@@ -154,3 +154,43 @@ footer {
     font-size: 0.7rem;
     background-color: var(--accent-color);
 }
+
+.footer {
+    background-color: #121212;
+    color: #f8f9fa;
+    position: relative;
+}
+
+.footer a {
+    transition: all 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.footer .social-icons a {
+    color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #0d6efd;
+    transform: translateY(-3px);
+}
+
+.footer-links a.hover-effect:hover {
+    padding-left: 5px;
+}
+
+.back-to-top {
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    opacity: 1;
+    transform: translateY(-5px);
+}
