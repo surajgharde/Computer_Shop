@@ -107,33 +107,7 @@ body {
     margin-bottom: 1rem;
 }
 
-footer {
-    background-color: var(--dark-bg);
-    color: white;
-    padding: 3rem 0;
-}
-
-.footer-links a {
-    color: rgba(255, 255, 255, 0.7);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-    color: white;
-}
-
-.social-icons i {
-    font-size: 1.5rem;
-    margin-right: 1rem;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.social-icons i:hover {
-    color: var(--primary-color);
-}
-
+ 
 #cart-dropdown {
     min-width: 300px;
 }
