@@ -3,14 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 350px;
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+        button {
+            background: #007bff;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #005dc2;
+        }
+    </style>
 </head>
+
 <body>
-     <form method="post" action="/login">
-        <h1>Login Page Page</h1>
-          <input name="username" type="text" placeholder="enter a Username"><br>
-          <input name="password" type="number" placeholder="enter a Password"><br>
-          <button type="submit">submit</button>
-     </form>
+
+    <div class="container">
+        <form method="post" action="/login">
+            <h2>Login Page</h2>
+
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" placeholder="Enter Username" required>
+
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="Enter Password" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
 </body>
 </html>
